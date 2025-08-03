@@ -11,6 +11,7 @@
 
 *Proyek Capstone untuk Mata Kuliah Code Generations and Optimization*
 
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-FF6B35?style=for-the-badge&logo=netlify)](https://rulif-capstone-project.netlify.app)
 [![LinkedIn Profile](https://img.shields.io/badge/💼_LinkedIn_Profile-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ruliffadrian/)
 [![GitHub](https://img.shields.io/badge/📱_Source_Code-GitHub-black?style=for-the-badge&logo=github)](https://github.com/rulifcode/react-ecommerce-firebase)
 
@@ -87,7 +88,7 @@ Aplikasi web e-commerce berfitur lengkap ini mendemonstrasikan pola pengembangan
 ![Firebase](https://img.shields.io/badge/Firebase_v9-FFCA28?style=flat&logo=firebase&logoColor=black)
 ![Firestore](https://img.shields.io/badge/Cloud_Firestore-FFCA28?style=flat&logo=firebase&logoColor=black)
 ![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-FFCA28?style=flat&logo=firebase&logoColor=black)
-![Firebase Hosting](https://img.shields.io/badge/Firebase_Hosting-FFCA28?style=flat&logo=firebase&logoColor=black)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)
 
 ### Tools Pengembangan
 ![NPM](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)
@@ -105,6 +106,7 @@ Aplikasi web e-commerce berfitur lengkap ini mendemonstrasikan pola pengembangan
 ├── 🎨 public/
 │   ├── index.html
 │   ├── favicon.ico
+│   ├── _redirects           # Netlify routing configuration
 │   └── manifest.json
 ├── ⚛️ src/
 │   ├── 🧩 components/
@@ -199,10 +201,32 @@ npm start
 
 <div align="center">
 
-### 🔥 Firebase Hosting (Direkomendasikan)
+### 🚀 **Live Production Deployment**
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://app.netlify.com/sites/rulif-capstone-project/deploys)
+
+**🌍 Akses Aplikasi Live:** [https://rulif-capstone-project.netlify.app](https://rulif-capstone-project.netlify.app)
 
 </div>
 
+### 📡 Netlify Deployment (Currently Used)
+
+```bash
+# 1️⃣ Push ke GitHub repository
+git add .
+git commit -m "Update project"
+git push origin main
+
+# 2️⃣ Netlify akan otomatis deploy
+# ✅ Auto-deploy from GitHub enabled
+# ✅ Environment variables configured
+# ✅ Build command: npm run build
+# ✅ Publish directory: build
+```
+
+<details>
+<summary>📌 Opsi Deployment Alternatif</summary>
+
+#### Firebase Hosting
 ```bash
 # 1️⃣ Install Firebase CLI
 npm install -g firebase-tools
@@ -221,16 +245,6 @@ firebase init hosting
 firebase deploy
 
 # 🎉 Aplikasi Anda sekarang live di: https://your-project.web.app
-```
-
-<details>
-<summary>📌 Opsi Deployment Alternatif</summary>
-
-#### Netlify
-```bash
-# Build command: npm run build
-# Publish directory: build
-# Hubungkan repository GitHub
 ```
 
 #### Vercel
@@ -305,7 +319,7 @@ Proyek ini mendemonstrasikan integrasi efektif **alat AI** dalam pengembangan we
 <div align="center">
 
 ### 🚀 **Aplikasi Live**
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Segera_Hadir-FF6B35?style=for-the-badge&logo=firebase)](https://your-project.web.app)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Now-FF6B35?style=for-the-badge&logo=netlify)](https://rulif-capstone-project.netlify.app)
 
 ### 💼 **Profil Developer**
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn_Profile-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ruliffadrian/)
@@ -393,6 +407,7 @@ Proyek ini dilisensikan di bawah **Lisensi MIT** - lihat file [LICENSE](LICENSE)
 
 - **IBM Granite** - Untuk bantuan pengembangan berbasis AI
 - **Hactiv8** - Untuk bimbingan dan sharing pengetahuan
+- **Netlify** - Untuk hosting dan deployment yang seamless
 
 ---
 
@@ -404,6 +419,6 @@ Proyek ini dilisensikan di bawah **Lisensi MIT** - lihat file [LICENSE](LICENSE)
 
 **Dibuat dengan ❤️ dan bantuan AI**
 
+**🌐 Live at:** [https://rulif-capstone-project.netlify.app](https://rulif-capstone-project.netlify.app)
+
 </div>
-
-
