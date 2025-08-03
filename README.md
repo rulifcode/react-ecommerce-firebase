@@ -7,65 +7,65 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-**🎯 Full-Stack E-Commerce Application Built with Modern Web Technologies**
+**🎯 Aplikasi E-Commerce Full-Stack dengan Teknologi Web Modern**
 
-*Capstone Project for Code Generations and Optimization Course*
+*Proyek Capstone untuk Mata Kuliah Code Generations and Optimization*
 
-[![Live Demo](https://img.shields.io/badge/💼_LinkedIn_Profile-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ruliffadrian/)
+[![LinkedIn Profile](https://img.shields.io/badge/💼_LinkedIn_Profile-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ruliffadrian/)
 [![GitHub](https://img.shields.io/badge/📱_Source_Code-GitHub-black?style=for-the-badge&logo=github)](https://github.com/rulifcode/react-ecommerce-firebase)
 
 </div>
 
 ---
 
-## 🌟 Project Overview
+## 🌟 Gambaran Proyek
 
-> **"Modern e-commerce solution powered by React.js and Firebase, showcasing real-world application development with AI-assisted coding practices."**
+> **"Solusi e-commerce modern yang didukung oleh React.js dan Firebase, menampilkan pengembangan aplikasi dunia nyata dengan praktik coding yang dibantu AI."**
 
-This full-featured e-commerce web application demonstrates advanced React.js development patterns, Firebase integration, and modern web development best practices. Built as part of the **Code Generations and Optimization** course, this project showcases the effective use of AI tools in accelerating development while maintaining code quality.
+Aplikasi web e-commerce berfitur lengkap ini mendemonstrasikan pola pengembangan React.js tingkat lanjut, integrasi Firebase, dan praktik terbaik pengembangan web modern. Dibangun sebagai bagian dari mata kuliah **Code Generations and Optimization**, proyek ini menunjukkan penggunaan efektif alat AI dalam mempercepat pengembangan sambil mempertahankan kualitas kode.
 
-### 🎭 What Makes This Special?
+### 🎭 Apa yang Membuat Ini Istimewa?
 
-- 🔐 **Secure Authentication** - Firebase Auth with protected routes
-- 🛍️ **Complete Shopping Flow** - From browsing to checkout
-- 📱 **Responsive Design** - Perfect on all devices
-- 🚀 **Modern Architecture** - Context API, React Router, and more
-- 🤖 **AI-Assisted Development** - Enhanced with IBM Granite
+- 🔐 **Autentikasi Aman** - Firebase Auth dengan protected routes
+- 🛍️ **Alur Belanja Lengkap** - Dari browsing hingga checkout
+- 📱 **Desain Responsif** - Sempurna di semua perangkat
+- 🚀 **Arsitektur Modern** - Context API, React Router, dan lainnya
+- 🤖 **Pengembangan Berbantuan AI** - Ditingkatkan dengan IBM Granite
 
 ---
 
-## ✨ Features Showcase
+## ✨ Showcase Fitur
 
 <table>
 <tr>
 <td width="50%">
 
-### 🔑 Authentication & Security
-- ✅ User registration & login
-- ✅ Protected route navigation  
-- ✅ Session management
-- ✅ Secure logout functionality
+### 🔑 Autentikasi & Keamanan
+- ✅ Registrasi & login pengguna
+- ✅ Navigasi route yang terlindungi
+- ✅ Manajemen sesi
+- ✅ Fungsi logout yang aman
 
-### 🛒 Shopping Experience
-- ✅ Product catalog browsing
-- ✅ Dynamic cart management
-- ✅ Real-time price calculations
-- ✅ Smooth checkout process
+### 🛒 Pengalaman Berbelanja
+- ✅ Browsing katalog produk
+- ✅ Manajemen keranjang dinamis
+- ✅ Kalkulasi harga real-time
+- ✅ Proses checkout yang mulus
 
 </td>
 <td width="50%">
 
-### 📊 User Dashboard
-- ✅ Order history tracking
-- ✅ User profile management
-- ✅ Purchase analytics
-- ✅ Account overview
+### 📊 Dashboard Pengguna
+- ✅ Pelacakan riwayat pesanan
+- ✅ Manajemen profil pengguna
+- ✅ Analitik pembelian
+- ✅ Ringkasan akun
 
-### 🎨 UI/UX Excellence
-- ✅ Responsive mobile design
-- ✅ Intuitive navigation
+### 🎨 Keunggulan UI/UX
+- ✅ Desain mobile responsif
+- ✅ Navigasi yang intuitif
 - ✅ Loading states & feedback
-- ✅ Modern aesthetic design
+- ✅ Desain estetika modern
 
 </td>
 </tr>
@@ -83,13 +83,13 @@ This full-featured e-commerce web application demonstrates advanced React.js dev
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript_ES6+-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-### Backend & Services
+### Backend & Layanan
 ![Firebase](https://img.shields.io/badge/Firebase_v9-FFCA28?style=flat&logo=firebase&logoColor=black)
 ![Firestore](https://img.shields.io/badge/Cloud_Firestore-FFCA28?style=flat&logo=firebase&logoColor=black)
 ![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-FFCA28?style=flat&logo=firebase&logoColor=black)
 ![Firebase Hosting](https://img.shields.io/badge/Firebase_Hosting-FFCA28?style=flat&logo=firebase&logoColor=black)
 
-### Development Tools
+### Tools Pengembangan
 ![NPM](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
@@ -98,7 +98,7 @@ This full-featured e-commerce web application demonstrates advanced React.js dev
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Arsitektur
 
 ```
 📦 react-ecommerce-firebase/
@@ -108,66 +108,66 @@ This full-featured e-commerce web application demonstrates advanced React.js dev
 │   └── manifest.json
 ├── ⚛️ src/
 │   ├── 🧩 components/
-│   │   ├── Navbar.js          # Navigation component
-│   │   ├── Footer.js          # Footer component
-│   │   └── PrivateRoute.js    # Route protection
+│   │   ├── Navbar.js          # Komponen navigasi
+│   │   ├── Footer.js          # Komponen footer
+│   │   └── PrivateRoute.js    # Proteksi route
 │   ├── 🔄 contexts/
-│   │   ├── AuthContext.js     # Authentication state
-│   │   └── CartContext.js     # Shopping cart state
+│   │   ├── AuthContext.js     # State autentikasi
+│   │   └── CartContext.js     # State keranjang belanja
 │   ├── 📄 pages/
-│   │   ├── Home.js            # Landing page
-│   │   ├── Login.js           # User authentication
-│   │   ├── Register.js        # User registration
-│   │   ├── ProductList.js     # Product catalog
-│   │   ├── Cart.js            # Shopping cart
-│   │   ├── Checkout.js        # Order processing
-│   │   ├── OrderSuccess.js    # Success confirmation
-│   │   ├── OrderHistory.js    # Order tracking
-│   │   └── Dashboard.js       # User dashboard
+│   │   ├── Home.js            # Halaman utama
+│   │   ├── Login.js           # Autentikasi pengguna
+│   │   ├── Register.js        # Registrasi pengguna
+│   │   ├── ProductList.js     # Katalog produk
+│   │   ├── Cart.js            # Keranjang belanja
+│   │   ├── Checkout.js        # Proses pemesanan
+│   │   ├── OrderSuccess.js    # Konfirmasi sukses
+│   │   ├── OrderHistory.js    # Pelacakan pesanan
+│   │   └── Dashboard.js       # Dashboard pengguna
 │   ├── 🔥 firebase/
-│   │   └── config.js          # Firebase configuration
-│   ├── 🎯 App.js              # Main application
-│   └── 📱 index.js            # Application entry point
+│   │   └── config.js          # Konfigurasi Firebase
+│   ├── 🎯 App.js              # Aplikasi utama
+│   └── 📱 index.js            # Entry point aplikasi
 ├── 📋 package.json
 └── 📖 README.md
 ```
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Panduan Memulai
 
-### Prerequisites
+### Prasyarat
 
-> Make sure you have these installed on your machine:
+> Pastikan Anda telah menginstal ini di mesin Anda:
 
 - ![Node.js](https://img.shields.io/badge/Node.js-v16+-339933?style=flat&logo=node.js&logoColor=white)
 - ![npm](https://img.shields.io/badge/npm-latest-CB3837?style=flat&logo=npm&logoColor=white)
 - ![Git](https://img.shields.io/badge/Git-latest-F05032?style=flat&logo=git&logoColor=white)
-- ![Firebase Account](https://img.shields.io/badge/Firebase_Account-Free-FFCA28?style=flat&logo=firebase&logoColor=black)
+- ![Firebase Account](https://img.shields.io/badge/Akun_Firebase-Gratis-FFCA28?style=flat&logo=firebase&logoColor=black)
 
-### 📥 Installation
+### 📥 Instalasi
 
 ```bash
-# 1️⃣ Clone the repository
+# 1️⃣ Clone repository
 git clone https://github.com/rulifcode/react-ecommerce-firebase.git
 cd react-ecommerce-firebase
 
 # 2️⃣ Install dependencies
 npm install
 
-# 3️⃣ Start development server
+# 3️⃣ Jalankan development server
 npm start
 ```
 
-### ⚙️ Firebase Setup
+### ⚙️ Setup Firebase
 
-1. **Create Firebase Project**
+1. **Buat Proyek Firebase**
    ```bash
-   # Visit https://console.firebase.google.com
-   # Create new project → Enable Authentication & Firestore
+   # Kunjungi https://console.firebase.google.com
+   # Buat proyek baru → Enable Authentication & Firestore
    ```
 
-2. **Configure Firebase**
+2. **Konfigurasi Firebase**
    ```javascript
    // src/firebase/config.js
    import { initializeApp } from 'firebase/app'
@@ -188,7 +188,7 @@ npm start
    export const db = getFirestore(app)
    ```
 
-3. **Enable Firebase Services**
+3. **Aktifkan Layanan Firebase**
    - ✅ Authentication (Email/Password)
    - ✅ Cloud Firestore Database
    - ✅ Firebase Hosting
@@ -199,7 +199,7 @@ npm start
 
 <div align="center">
 
-### 🔥 Firebase Hosting (Recommended)
+### 🔥 Firebase Hosting (Direkomendasikan)
 
 </div>
 
@@ -207,204 +207,204 @@ npm start
 # 1️⃣ Install Firebase CLI
 npm install -g firebase-tools
 
-# 2️⃣ Login to Firebase
+# 2️⃣ Login ke Firebase
 firebase login
 
-# 3️⃣ Build production version
+# 3️⃣ Build versi produksi
 npm run build
 
 # 4️⃣ Initialize hosting
 firebase init hosting
-# Select project → public: build → SPA: Yes → overwrite: No
+# Pilih project → public: build → SPA: Yes → overwrite: No
 
-# 5️⃣ Deploy to production
+# 5️⃣ Deploy ke produksi
 firebase deploy
 
-# 🎉 Your app is now live at: https://your-project.web.app
+# 🎉 Aplikasi Anda sekarang live di: https://your-project.web.app
 ```
 
 <details>
-<summary>📌 Alternative Deployment Options</summary>
+<summary>📌 Opsi Deployment Alternatif</summary>
 
 #### Netlify
 ```bash
 # Build command: npm run build
 # Publish directory: build
-# Connect GitHub repository
+# Hubungkan repository GitHub
 ```
 
 #### Vercel
 ```bash
 npm i -g vercel
 vercel
-# Follow the prompts
+# Ikuti petunjuknya
 ```
 
 </details>
 
 ---
 
-## 🤖 AI-Powered Development
+## 🤖 Pengembangan Berbantuan AI
 
-This project demonstrates the effective integration of **AI tools** in modern web development:
+Proyek ini mendemonstrasikan integrasi efektif **alat AI** dalam pengembangan web modern:
 
 <table>
 <tr>
 <td width="50%">
 
 ### 🧠 **Code Generation**
-- Component structure optimization
-- Firebase integration patterns
-- React hooks implementation
-- Route protection logic
+- Optimisasi struktur komponen
+- Pola integrasi Firebase
+- Implementasi React hooks
+- Logika proteksi route
 
 ### 🔍 **Problem Solving**  
-- Authentication flow debugging
-- State management optimization
-- Performance bottleneck identification
-- Error handling improvements
+- Debugging alur autentikasi
+- Optimisasi state management
+- Identifikasi bottleneck performa
+- Perbaikan error handling
 
 </td>
 <td width="50%">
 
-### ⚡ **Code Optimization**
-- Component re-render minimization
-- Bundle size optimization
-- Loading state improvements
-- Code splitting strategies
+### ⚡ **Optimisasi Kode**
+- Minimalisasi re-render komponen
+- Optimisasi ukuran bundle
+- Perbaikan loading state
+- Strategi code splitting
 
-### 📚 **Documentation**
-- Automated code comments
-- README generation
-- API documentation
-- Best practices implementation
+### 📚 **Dokumentasi**
+- Komentar kode otomatis
+- Generasi README
+- Dokumentasi API
+- Implementasi best practices
 
 </td>
 </tr>
 </table>
 
-> **AI Impact:** Development time reduced by **40%** while maintaining high code quality and implementing industry best practices.
+> **Dampak AI:** Waktu pengembangan berkurang **40%** sambil mempertahankan kualitas kode tinggi dan mengimplementasikan praktik terbaik industri.
 
 ---
 
-## 📊 Project Stats
+## 📊 Statistik Proyek
 
 <div align="center">
 
-![Lines of Code](https://img.shields.io/badge/Lines_of_Code-2000+-blue?style=for-the-badge)
-![Components](https://img.shields.io/badge/React_Components-12+-green?style=for-the-badge)
-![Pages](https://img.shields.io/badge/Pages-8+-orange?style=for-the-badge)
-![Features](https://img.shields.io/badge/Features-15+-purple?style=for-the-badge)
+![Lines of Code](https://img.shields.io/badge/Baris_Kode-2000+-blue?style=for-the-badge)
+![Components](https://img.shields.io/badge/Komponen_React-12+-green?style=for-the-badge)
+![Pages](https://img.shields.io/badge/Halaman-8+-orange?style=for-the-badge)
+![Features](https://img.shields.io/badge/Fitur-15+-purple?style=for-the-badge)
 
 </div>
 
 ---
 
-## 🎯 Demo & Links
+## 🎯 Demo & Link
 
 <div align="center">
 
-### 🚀 **Live Application**
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Coming_Soon-FF6B35?style=for-the-badge&logo=firebase)](https://your-project.web.app)
+### 🚀 **Aplikasi Live**
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Segera_Hadir-FF6B35?style=for-the-badge&logo=firebase)](https://your-project.web.app)
 
-### 💼 **Developer Profile**
+### 💼 **Profil Developer**
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn_Profile-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ruliffadrian/)
 
 ### 📱 **Source Code**
 [![GitHub Repo](https://img.shields.io/badge/📂_Source_Code-GitHub-black?style=for-the-badge&logo=github)](https://github.com/rulifcode/react-ecommerce-firebase)
 
-### 🎓 **Course Project**
-[![Capstone](https://img.shields.io/badge/🎓_Capstone_Project-Completed-success?style=for-the-badge)](https://github.com/rulifcode/react-ecommerce-firebase)
+### 🎓 **Proyek Capstone**
+[![Capstone](https://img.shields.io/badge/🎓_Capstone_Project-Selesai-success?style=for-the-badge)](https://github.com/rulifcode/react-ecommerce-firebase)
 
 </div>
 
 ---
 
-## 🤝 Contributing
+## 🤝 Kontribusi
 
-We welcome contributions! Here's how you can help:
+Kami menyambut kontribusi! Berikut cara Anda dapat membantu:
 
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
-3. **Commit** your changes (`git commit -m 'Add AmazingFeature'`)
-4. **Push** to the branch (`git push origin feature/AmazingFeature`)
-5. **Open** a Pull Request
+1. **Fork** repository ini
+2. **Buat** branch fitur (`git checkout -b feature/FiturKeren`)
+3. **Commit** perubahan Anda (`git commit -m 'Tambah FiturKeren'`)
+4. **Push** ke branch (`git push origin feature/FiturKeren`)
+5. **Buka** Pull Request
 
 <div align="center">
 
-[![Contributors](https://img.shields.io/badge/Contributors-Welcome-brightgreen?style=for-the-badge)]()
-[![Issues](https://img.shields.io/badge/Issues-Open-red?style=for-the-badge)]()
-[![Pull Requests](https://img.shields.io/badge/PRs-Welcome-yellow?style=for-the-badge)]()
+[![Contributors](https://img.shields.io/badge/Kontributor-Diterima-brightgreen?style=for-the-badge)]()
+[![Issues](https://img.shields.io/badge/Issues-Terbuka-red?style=for-the-badge)]()
+[![Pull Requests](https://img.shields.io/badge/PRs-Diterima-yellow?style=for-the-badge)]()
 
 </div>
 
 ---
 
-## 📄 License
+## 📄 Lisensi
 
 <div align="center">
 
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+Proyek ini dilisensikan di bawah **Lisensi MIT** - lihat file [LICENSE](LICENSE) untuk detailnya.
 
 </div>
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Pembuat
 
 <div align="center">
 
 ### **Rulif Fadria Nirwansyah**
 
 **🎓 Mahasiswa Universitas Sangga Buana YPKP**  
-**📅 20 Tahun | 💻 Software Engineering Enthusiast**
+**📅 20 Tahun | 💻 Enthusiast Software Engineering**
 
 [![GitHub](https://img.shields.io/badge/GitHub-rulifcode-black?style=for-the-badge&logo=github)](https://github.com/rulifcode)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ruliffadrian/)
-[![University](https://img.shields.io/badge/🎓_USB_YPKP-Student-blue?style=for-the-badge)]()
-[![Age](https://img.shields.io/badge/👨‍💻_Age-20_Years-green?style=for-the-badge)]()
+[![University](https://img.shields.io/badge/🎓_USB_YPKP-Mahasiswa-blue?style=for-the-badge)]()
+[![Age](https://img.shields.io/badge/👨‍💻_Umur-20_Tahun-green?style=for-the-badge)]()
 
 </div>
 
 ---
 
-## 🎓 Course Information
+## 🎓 Informasi Mata Kuliah
 
 <div align="center">
 
 **📚 Code Generations and Optimization**  
 **🏫 Universitas Sangga Buana YPKP**  
-**🎯 Project Type:** Full Functioning Web Application  
-**🤖 AI Tools:** IBM Granite  
-**✅ Status:** Capstone Project Completed
+**🎯 Jenis Proyek:** Full Functioning Web Application  
+**🤖 Alat AI:** IBM Granite  
+**✅ Status:** Proyek Capstone Selesai
 
-[![Course](https://img.shields.io/badge/🎓_Course-Code_Generations_&_Optimization-blue?style=for-the-badge)]()
+[![Course](https://img.shields.io/badge/🎓_Mata_Kuliah-Code_Generations_&_Optimization-blue?style=for-the-badge)]()
 [![University](https://img.shields.io/badge/🏫_USB_YPKP-Bandung-red?style=for-the-badge)]()
-[![Project Type](https://img.shields.io/badge/📱_Type-Full_Web_App-green?style=for-the-badge)]()
-[![AI Assisted](https://img.shields.io/badge/🤖_AI_Assisted-IBM_Granite-purple?style=for-the-badge)]()
+[![Project Type](https://img.shields.io/badge/📱_Jenis-Full_Web_App-green?style=for-the-badge)]()
+[![AI Assisted](https://img.shields.io/badge/🤖_Bantuan_AI-IBM_Granite-purple?style=for-the-badge)]()
 
 </div>
 
 ---
 
-## 🙏 Acknowledgments
+## 🙏 Ucapan Terima Kasih
 
-- **React.js Community** - For the amazing framework
-- **Firebase Team** - For the powerful backend services  
-- **IBM Granite** - For AI-powered development assistance
-- **Course Instructors** - For guidance and knowledge sharing
-- **Open Source Contributors** - For inspiration and code examples
+- **Komunitas React.js** - Untuk framework yang luar biasa
+- **Tim Firebase** - Untuk layanan backend yang powerful  
+- **IBM Granite** - Untuk bantuan pengembangan berbasis AI
+- **Dosen Pengampu** - Untuk bimbingan dan sharing pengetahuan
+- **Kontributor Open Source** - Untuk inspirasi dan contoh kode
 
 ---
 
 <div align="center">
 
-### ⭐ **Star this repository if you found it helpful!**
+### ⭐ **Beri bintang pada repository ini jika Anda merasa terbantu!**
 
 [![Star History Chart](https://img.shields.io/badge/⭐_Star_History-GitHub-yellow?style=for-the-badge)]()
 
-**Made with ❤️ and AI assistance**
+**Dibuat dengan ❤️ dan bantuan AI**
 
 </div>
