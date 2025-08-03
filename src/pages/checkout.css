@@ -1,0 +1,346 @@
+/* Checkout Styles - Consistent with Vizify theme */
+.checkout-container {
+  min-height: 100vh;
+  background: #0a0a0a;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Background grid pattern like Vizify */
+.checkout-container::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 30px 30px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Main checkout wrapper - targets the div with inline styles */
+div[style*="padding: 2rem"][style*="maxWidth: 600px"] {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3) !important;
+  position: relative !important;
+  z-index: 1 !important;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+/* Checkout title styling */
+h2 {
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 2rem !important;
+  background: linear-gradient(135deg, #9333ea, #ec4899) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  text-align: center !important;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Order items list styling */
+ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 0 2rem 0 !important;
+}
+
+li[style*="marginBottom: 1rem"] {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 0.75rem !important;
+  padding: 1.5rem !important;
+  margin-bottom: 1rem !important;
+  transition: all 0.3s ease !important;
+}
+
+li[style*="marginBottom: 1rem"]:hover {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-color: rgba(147, 51, 234, 0.2) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Strong text styling for product names */
+li strong {
+  color: white !important;
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  display: block !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Small text for stock info */
+li small {
+  color: #10b981 !important;
+  font-size: 0.9rem !important;
+  font-weight: 500 !important;
+}
+
+li small::before {
+  content: "📦 ";
+  margin-right: 0.3rem;
+}
+
+/* Total price styling */
+p:has(strong) {
+  background: rgba(147, 51, 234, 0.1) !important;
+  border: 1px solid rgba(147, 51, 234, 0.3) !important;
+  border-radius: 0.75rem !important;
+  padding: 1.5rem !important;
+  text-align: center !important;
+  margin: 2rem 0 !important;
+  font-size: 1.2rem !important;
+}
+
+p strong {
+  color: #ec4899 !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+}
+
+/* Payment method section */
+div[style*="marginBottom: 1rem"] {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 0.75rem !important;
+  padding: 1.5rem !important;
+  margin-bottom: 2rem !important;
+}
+
+/* Payment method labels */
+div[style*="marginBottom: 1rem"] > label:first-of-type {
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+  color: white !important;
+  margin-bottom: 1rem !important;
+  display: block !important;
+}
+
+div[style*="marginBottom: 1rem"] > label:first-of-type::before {
+  content: "💳 ";
+  margin-right: 0.5rem;
+}
+
+/* Radio button labels */
+div[style*="marginBottom: 1rem"] label:not(:first-of-type) {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.8rem !important;
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 0.5rem !important;
+  padding: 1rem !important;
+  margin-bottom: 0.8rem !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  font-weight: 600 !important;
+  color: white !important;
+}
+
+div[style*="marginBottom: 1rem"] label:not(:first-of-type):hover {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-color: rgba(147, 51, 234, 0.3) !important;
+}
+
+/* Radio buttons */
+input[type="radio"] {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+  accent-color: #9333ea !important;
+}
+
+/* Shipping info section */
+div[style*="marginBottom: 1rem"]:last-of-type {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 0.75rem !important;
+  padding: 1.5rem !important;
+  margin-bottom: 2rem !important;
+}
+
+div[style*="marginBottom: 1rem"]:last-of-type p {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-bottom: 0.8rem !important;
+  padding: 0 !important;
+  background: none !important;
+  border: none !important;
+  font-size: 1rem !important;
+}
+
+div[style*="marginBottom: 1rem"]:last-of-type p:last-child {
+  margin-bottom: 0 !important;
+}
+
+div[style*="marginBottom: 1rem"]:last-of-type p strong {
+  color: #a1a1aa !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+}
+
+/* Checkout button */
+button[style*="backgroundColor: #28a745"] {
+  width: 100% !important;
+  padding: 1.2rem 2rem !important;
+  background: linear-gradient(135deg, #10b981, #059669) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 0.75rem !important;
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  position: relative !important;
+  overflow: hidden !important;
+  margin-top: 2rem !important;
+}
+
+button[style*="backgroundColor: #28a745"]::before {
+  content: "✅ ";
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
+}
+
+button[style*="backgroundColor: #28a745"]::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+button[style*="backgroundColor: #28a745"]:hover::after {
+  left: 100%;
+}
+
+button[style*="backgroundColor: #28a745"]:hover {
+  background: linear-gradient(135deg, #059669, #047857) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4) !important;
+}
+
+button[style*="backgroundColor: #28a745"]:active {
+  transform: translateY(0) !important;
+}
+
+/* Empty cart message */
+p:not(:has(strong)):not([style]) {
+  text-align: center !important;
+  padding: 4rem 2rem !important;
+  color: #a1a1aa !important;
+  font-size: 1.2rem !important;
+}
+
+p:not(:has(strong)):not([style])::before {
+  content: "🛒\A";
+  white-space: pre;
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  div[style*="padding: 2rem"][style*="maxWidth: 600px"] {
+    margin: 1rem !important;
+    padding: 1.5rem !important;
+  }
+
+  h2 {
+    font-size: 2rem !important;
+  }
+
+  li[style*="marginBottom: 1rem"] {
+    padding: 1rem !important;
+  }
+
+  div[style*="marginBottom: 1rem"] label:not(:first-of-type) {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.5rem !important;
+  }
+
+  div[style*="marginBottom: 1rem"]:last-of-type p {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.3rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  div[style*="padding: 2rem"][style*="maxWidth: 600px"] {
+    margin: 0.5rem !important;
+    padding: 1.2rem !important;
+  }
+
+  h2 {
+    font-size: 1.8rem !important;
+  }
+
+  button[style*="backgroundColor: #28a745"] {
+    padding: 1rem 1.5rem !important;
+    font-size: 1rem !important;
+  }
+}
+
+/* Focus states for accessibility */
+input[type="radio"]:focus,
+button[style*="backgroundColor: #28a745"]:focus {
+  outline: 2px solid #9333ea !important;
+  outline-offset: 2px !important;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  div[style*="padding: 2rem"][style*="maxWidth: 600px"] {
+    background: #000 !important;
+    border: 2px solid #666 !important;
+  }
+
+  li[style*="marginBottom: 1rem"] {
+    border: 2px solid #666 !important;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  h2,
+  button[style*="backgroundColor: #28a745"]::after {
+    animation: none !important;
+  }
+
+  li[style*="marginBottom: 1rem"],
+  div[style*="marginBottom: 1rem"] label:not(:first-of-type),
+  button[style*="backgroundColor: #28a745"] {
+    transition: none !important;
+  }
+}

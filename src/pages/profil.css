@@ -1,0 +1,336 @@
+/* Profile Form Styles - Consistent with Vizify theme */
+.profile-container {
+  min-height: 100vh;
+  background: #0a0a0a;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  position: relative;
+  overflow-x: hidden;
+  padding: 2rem;
+}
+
+/* Background grid pattern like Vizify */
+.profile-container::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 30px 30px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.profile-content {
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Profile Form Card */
+.profile-form-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Profile Header */
+.profile-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, #9333ea, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.profile-title .emoji {
+  background: none;
+  -webkit-text-fill-color: initial;
+  font-size: 1.8rem;
+}
+
+.profile-subtitle {
+  color: #a1a1aa;
+  font-size: 1rem;
+}
+
+/* Form Groups */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #e5e7eb;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #9333ea;
+  box-shadow: 0 0 0 3px rgba(147, 51, 234, 0.1);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.form-input::placeholder {
+  color: #9ca3af;
+}
+
+.form-input:read-only {
+  background: rgba(107, 114, 128, 0.2);
+  border-color: rgba(107, 114, 128, 0.3);
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Email Field Specific */
+.email-field {
+  position: relative;
+}
+
+.email-field::after {
+  content: "🔒";
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Save Button */
+.save-button {
+  width: 100%;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #9333ea, #7c3aed);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.save-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.save-button:hover::before {
+  left: 100%;
+}
+
+.save-button:hover {
+  background: linear-gradient(135deg, #7c3aed, #6d28d9);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(147, 51, 234, 0.4);
+}
+
+.save-button:active {
+  transform: translateY(0);
+}
+
+.save-button .emoji {
+  font-size: 1.2rem;
+}
+
+/* Loading State */
+.save-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.save-button:disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+/* Success Message */
+.success-message {
+  background: rgba(16, 185, 129, 0.2);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  color: #10b981;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+.success-message::before {
+  content: "✅";
+  font-size: 1.2rem;
+}
+
+/* Error Message */
+.error-message {
+  background: rgba(239, 68, 68, 0.2);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #ef4444;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+.error-message::before {
+  content: "❌";
+  font-size: 1.2rem;
+}
+
+/* Profile Avatar Section */
+.profile-avatar {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.avatar-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #9333ea, #ec4899);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+
+.avatar-name {
+  color: #a1a1aa;
+  font-size: 0.9rem;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .profile-form-card {
+    padding: 1.5rem;
+  }
+
+  .profile-title {
+    font-size: 1.8rem;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .form-input {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .save-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-container {
+    padding: 1rem 0.8rem;
+  }
+
+  .profile-form-card {
+    padding: 1.2rem;
+  }
+
+  .profile-title {
+    font-size: 1.6rem;
+  }
+
+  .profile-title .emoji {
+    font-size: 1.4rem;
+  }
+
+  .form-group {
+    margin-bottom: 1.2rem;
+  }
+
+  .avatar-circle {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+}
+
+/* Focus states for accessibility */
+.form-input:focus,
+.save-button:focus {
+  outline: 2px solid #9333ea;
+  outline-offset: 2px;
+}
