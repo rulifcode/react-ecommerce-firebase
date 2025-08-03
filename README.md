@@ -446,7 +446,7 @@ Kami menyambut kontribusi! Berikut cara Anda dapat membantu:
 - **IBM Granite** - Untuk bantuan pengembangan berbasis AI
 - **Fradipta Alqaiyum** - Untuk bimbingan dan sharing pengetahuan  
 - **Netlify** - Untuk hosting dan deployment yang seamless
- - **Netlify** - Terimakasih Hactiv8 yang telah membuka wawasan saya tentang bagaimana AI bisa bantu proses Coding, mulai dari code generation sampai optimasi. Lewat materi yang praktis dan pembimbing langsung dari instruktur.
+ - **Hactiv8** - Terimakasih Hactiv8 yang telah membuka wawasan saya tentang bagaimana AI bisa bantu proses Coding, mulai dari code generation sampai optimasi. Lewat materi yang praktis dan pembimbing langsung dari instruktur.
 
 <!-- Wave Footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=footer&text=Thank%20You!&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=65" />
@@ -468,4 +468,5 @@ Kami menyambut kontribusi! Berikut cara Anda dapat membantu:
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=🌐+Live+at:+rulif-capstone-project.netlify.app;✨+Made+with+❤️+and+AI+assistance;🚀+Thank+you+for+visiting!" alt="Footer" />
 
 </div>
+
 
