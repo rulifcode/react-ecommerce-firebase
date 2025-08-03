@@ -422,3 +422,4 @@ Proyek ini dilisensikan di bawah **Lisensi MIT** - lihat file [LICENSE](LICENSE)
 **🌐 Live at:** [https://rulif-capstone-project.netlify.app](https://rulif-capstone-project.netlify.app)
 
 </div>
+
