@@ -20,7 +20,7 @@
 
 **🎯 Aplikasi E-Commerce Full-Stack dengan Teknologi Web Modern**
 
-*Proyek Capstone untuk Mata Kuliah Code Generations and Optimization*
+*Proyek Capstone untuk Pelatihan Code Generations and Optimization*
 
 <!-- Animated Action Buttons -->
 <p align="center">
@@ -468,3 +468,4 @@ Kami menyambut kontribusi! Berikut cara Anda dapat membantu:
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=🌐+Live+at:+rulif-capstone-project.netlify.app;✨+Made+with+❤️+and+AI+assistance;🚀+Thank+you+for+visiting!" alt="Footer" />
 
 </div>
+
