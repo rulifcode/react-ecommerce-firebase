@@ -11,7 +11,7 @@
 
 *Capstone Project for Code Generations and Optimization Course*
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Coming_Soon-success?style=for-the-badge)](https://your-project.web.app)
+[![Live Demo](https://img.shields.io/badge/💼_LinkedIn_Profile-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ruliffadrian/)
 [![GitHub](https://img.shields.io/badge/📱_Source_Code-GitHub-black?style=for-the-badge&logo=github)](https://github.com/rulifcode/react-ecommerce-firebase)
 
 </div>
@@ -305,7 +305,10 @@ This project demonstrates the effective integration of **AI tools** in modern we
 <div align="center">
 
 ### 🚀 **Live Application**
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Firebase_Hosting-FF6B35?style=for-the-badge&logo=firebase)](https://your-project.web.app)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Coming_Soon-FF6B35?style=for-the-badge&logo=firebase)](https://your-project.web.app)
+
+### 💼 **Developer Profile**
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn_Profile-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ruliffadrian/)
 
 ### 📱 **Source Code**
 [![GitHub Repo](https://img.shields.io/badge/📂_Source_Code-GitHub-black?style=for-the-badge&logo=github)](https://github.com/rulifcode/react-ecommerce-firebase)
@@ -359,6 +362,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 **📅 20 Tahun | 💻 Software Engineering Enthusiast**
 
 [![GitHub](https://img.shields.io/badge/GitHub-rulifcode-black?style=for-the-badge&logo=github)](https://github.com/rulifcode)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ruliffadrian/)
 [![University](https://img.shields.io/badge/🎓_USB_YPKP-Student-blue?style=for-the-badge)]()
 [![Age](https://img.shields.io/badge/👨‍💻_Age-20_Years-green?style=for-the-badge)]()
 
