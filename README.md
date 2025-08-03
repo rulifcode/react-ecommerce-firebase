@@ -391,11 +391,8 @@ Proyek ini dilisensikan di bawah **Lisensi MIT** - lihat file [LICENSE](LICENSE)
 
 ## 🙏 Ucapan Terima Kasih
 
-- **Komunitas React.js** - Untuk framework yang luar biasa
-- **Tim Firebase** - Untuk layanan backend yang powerful  
 - **IBM Granite** - Untuk bantuan pengembangan berbasis AI
-- **Teguh Wiharko ST. MT.** - Untuk bimbingan dan sharing pengetahuan
-- **Kontributor Open Source** - Untuk inspirasi dan contoh kode
+- **Hactiv8** - Untuk bimbingan dan sharing pengetahuan
 
 ---
 
@@ -408,4 +405,5 @@ Proyek ini dilisensikan di bawah **Lisensi MIT** - lihat file [LICENSE](LICENSE)
 **Dibuat dengan ❤️ dan bantuan AI**
 
 </div>
+
 
